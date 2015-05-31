@@ -1,0 +1,12 @@
+== RBX/EventMachine Collision
+
+A simple rails project that shows a collision between EventMachine and
+RBX > 2.5.3. This causes all interrupts and signals to fail including
+ctrl+c, USR2, and QUIT.
+
+=== Use
+
+1. clone
+2. bundle install
+3. rails c
+4. Try to quit. Will have to use ctrl-z or kill the server from another terminal.
